@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="/CSS files/contact.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <div class="heading">
+    <h1><i>Give Us Your Valuable Feedback!</i></h1>
+    <p><b><i>Want to share your experience of using our E-Complaint Box? <br> Just fill up the form given below:</i></b></p>
+    </div>
+    
+    <div class="contact-wrap">
+        <div class="contact-in">
+            <h1>Reach Out</h1>
+            <h2><i class="uil uil-phone" aria-hidden="true"></i>Phone</h2>
+            <p>+91 93599 79081<br> +91 94237 61404<br> +91 76200 71678</p>
+            <!-- <h2><i class="uil uil-envelope" aria-hidden="true"></i>Email ID</h2>
+            <p>atharv.hatwalne@gmail.com</p> -->
+            <h2><i class="uil uil-map-marker" aria-hidden="true"></i>Address</h2>
+            <p>Government College of Engineering, Chhatrapati Sambhajinagar, Maharashtra, India</p>
+            <!-- <ul>
+                <li><a href=""><i class="uil uil-instagram"></i></a></li>
+                <li><a href=""><i class="uil uil-facebook-f"></i></a></li>
+                <li><a href=""><i class="uil uil-github"></i></a></i></li>
+                <li><a href=""><i class="uil uil-linkedin"></i></a></i></li>
+            </ul> -->
+        </div>
+        <div class="contact-in">
+            <h1>Feedback Form</h1>
+            <form action="https://formsubmit.co/10eff040f37aa22d62ff9cc5c4b2478e" method="POST">
+                <input type="text" class="contact-in-input" placeholder="Type your first name here..." name="First Name" required>
+                <input type="text" class="contact-in-input" placeholder="Type your last name here..." name="Last Name" required>
+                <input type="email" class="contact-in-input" placeholder="Type your Email ID here..." name="Email ID" required>
+                <textarea placeholder="Type your Message here..." class="contact-in-text" name="Message"></textarea>
+                <input type="submit" class="contact-in-btn" value="SUBMIT" onclick="openPopup()">
+            </form>
+        </div>
+        <div class="contact-in">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3752.325441495221!2d75.3213798!3d19.8684753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb9861a6d01f43%3A0x3a1b932d329091e9!2sGovernment%20College%20Of%20Engineering%2C%20Aurangabad!5e0!3m2!1sen!2sin!4v1683989668898!5m2!1sen!2sin" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <img src="/eskill images/tick1.png">
+        <h2>Thank You!</h2>
+        <p>Your feedback has been successfully submitted. Thank you!</p>
+        <button type="button" onclick="closePopup()">OK</button>
+    </div>
+
+    <div class="footer-section">
+        <div class="container5">
+        <div class="about7">
+             
+            <h3>About</h3>
+            <p style="color:black; font-size: 18px;"><b><i>E-Complaint Box</i></b> <br> Get your 
+                problems solved! <br><br>Click on <b>Home</b> tab in quick links! <br> 
+                And yes, don't forget to give us your feedback.
+            </p>
+        </div>
+        
+        <div class="quick-links2">
+            <h3>Quick Links</h3>
+            <div class="links43">
+                <a href="index.html">Home</a>
+                <a href="index.html">About Project</a>
+                <a href="https://geca.ac.in">GECCS official website</a>
+            </div>
+        </div>
+
+            <div class="social-links1">
+                <p class="at at2">Designed & Developed by 
+                <br> <a href="https://www.linkedin.com/in/sainath-devane-025813219"><span>Mr. Sainath Devane</span></a><br><a href="https://www.linkedin.com/in/sanket-dhumal-b41298276"><span>Mr. Sanket Dhumal</span></a>
+                <br><a href="https://www.linkedin.com/in/pawan-falke-2a9881276"><span>Mr. Pawan Falke</span></a><br><a href="https://www.linkedin.com/in/atharv-hatwalne-02020122a"><span>Mr. Atharv Hatwalne</span></a></p>
+                <br><br><br>
+                <p class="at at1">2023 &copy Copyright <br> All Rights Reserved</p>
+            </div>
+        
+        
+    </div>
+</div>
+
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+function closePopup(){
+    popup.classList.remove("open-popup");
+}
+</script>
+    
+
+</body>
+</html>
