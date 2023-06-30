@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+body{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    background: url(/eskill\ images/IMG38.jpg);
+    background-size: cover;
+    
+}
+.heading h1{
+    margin-top: 30px;
+    text-align: center;
+    color: #000000;
+}
+.heading p{
+    margin-top: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.contact-wrap{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-in{
+     padding: 40px 30px;
+}
+.contact-in:nth-child(1){
+    flex: 30%;
+    background: rgba(95, 66, 66, 0.788);
+    backdrop-filter: blur(90px);
+    background-size: cover;
+    color: #fff;
+}
+.contact-in:nth-child(2){
+    flex: 45%;
+    background: rgba(236, 109, 25, 0.877);
+}
+.contact-in:nth-child(3){
+    flex: 25%;
+    padding: 0;
+}
+.contact-in h1{
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+} 
+.contact-in h2{
+    font-size: 20px;
+    margin-bottom: 14px;
+    font-weight: 900;
+    color: #000;
+} 
+.contact-in h2 i{
+    font-size: 16px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    color: #000;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+}
+.contact-in p{
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-weight: 750;
+}
+
+.contact-in ul{
+    margin: 0;
+    padding: 0;
+}
+.contact-in ul li{
+    list-style: none;
+    margin-top: 5px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.contact-in ul li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.contact-in ul li a i{
+    font-size: 14px;
+    color: #000;
+    line-height: 30px;
+}
+.contact-in a .uil{
+    font-size: 30px;
+    line-height: 40px;
+    position: relative;
+    z-index: 8;
+}
+.contact-in a .uil:hover{
+    color: #d10b0b;
+    
+}
+.contact-in form{
+    width: 100%;
+    height: auto;
+}
+.contact-in-input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    outline: none;
+    padding-left: 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    font-family:'Poppins', sans-serif; ;
+}
+.contact-in-input::placeholder{
+    color: #fff;
+}
+.contact-in-text{
+    width: 100%;
+    height: 140px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    outline: none;
+    padding-left: 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 5px;
+    font-family:'Poppins', sans-serif; ;
+}
+.contact-in-text::placeholder{
+    color: #fff;
+}
+.contact-in-btn{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    background: rgb(47, 125, 226);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    font-family:'Poppins', sans-serif; 
+    transition: 0.3s;
+}
+.contact-in-btn:hover{
+    background: green;
+}
+.contact-in iframe{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 490px) {
+    .contact-in:nth-child(1){
+        flex: 50%;
+        
+    }
+    .contact-in:nth-child(2){
+        flex: 50%;
+        
+    }
+    .contact-in:nth-child(3){
+        flex: 100%;
+        
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .contact-in:nth-child(1){
+        flex: 50%;
+        
+    }
+    .contact-in:nth-child(2){
+        flex: 50%;
+        
+    }
+    .contact-in:nth-child(3){
+        flex: 100%;
+        
+    }
+}
+.footer-section{
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    padding: 40px 11% 75px;
+    background-color: rgb(79, 142, 145);
+    font-family: 'poppins';
+    position: relative;
+    margin-bottom: -10px;
+    
+}
+.container5{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-column-gap: 45px;
+    grid-gap: 95px;
+}
+.container5 .about7 p {
+    color: #fff;
+    margin-bottom: 25px;
+}
+.container5 h3{
+    font-size: 20.5px;
+    margin-bottom: 23px;
+    position: relative;
+}
+.container5 h3::after{
+    content: ' ';
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    bottom: -7px;
+    left: 0;
+}
+.quick-links2 .links43{
+    display: flex;
+    flex-direction: column;
+}
+.links43 a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 17px;
+    transition: all 0.3s;
+    font-weight: 660;
+}
+.links43 a:hover{
+    color: #000;
+
+}
+.container5 .social-links1 .at2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.container5 .social-links1 .at2 span{
+    color: midnightblue;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.container5 .social-links1 .at2 span:hover{
+    color: crimson;
+}
+
+.container5 .social-links1 .at1{
+    margin: 0px 77px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.popup{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #65e038;
+    color: #1d1919;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
